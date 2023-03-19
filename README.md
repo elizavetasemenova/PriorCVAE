@@ -14,6 +14,6 @@ conda install -c conda-forge matplotlib
 conda install -c anaconda Jupyter
 conda install -c conda-forge arviz
 conda install -c conda-forge dill
-conda activate numpyro10_torch_mamba
+conda install -c conda-forge mamba
 mamba install -c conda-forge geopandas
 ```
