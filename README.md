@@ -1,7 +1,7 @@
 # PriorCVAE
 
 ## Environment
-Create the environment `numpyro10_torch_mamba`: 
+Create the environment `numpyro10_torch`: 
  
 ```
 conda create -n numpyro10_torch python=3.8.15
