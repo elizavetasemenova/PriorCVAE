@@ -1,1 +1,1 @@
-##  Folder to store weight of trained neural networks (VAEs)
+## Folder to store weight of trained neural networks (VAEs)
