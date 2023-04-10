@@ -22,14 +22,6 @@ mamba install -c conda-forge geopandas
 ```
 
 
-A [runnable demo](https://colab.research.google.com/drive/1yY6voFH0UdL2uZwDqGJWqS3tHQpB8212?usp=sharing) of the one-dimesiontal GP example comparing PriorVAE, PriorCVAE and GP inference is available on Colab. Make sure to follow the following folder structure: 
-
-.
-+-- Colab notebook
-+-- trained_models
-|   +-- PriorCVAE weights
-|   +-- PriorVAE weights
-+-- mcmc
-|   +-- MCMC fit
+A [runnable demo](https://colab.research.google.com/drive/1yY6voFH0UdL2uZwDqGJWqS3tHQpB8212?usp=sharing) of the one-dimesiontal GP example comparing PriorVAE, PriorCVAE and GP inference is available on Colab. Make sure to follow the keep `trained_models` and `mcmc` folders in the root directory; `trained_models` contains pretrained neural networks (VAEs), and `mcmc` contains MCMC fits of models which are hard to run.
 
 
