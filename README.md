@@ -1,5 +1,8 @@
 # PriorCVAE
 
+Demonstration code of the publication ["PriorCVAE: scalable MCMC parameter inference with Bayesian deep generative modelling"], Elizaveta Semenova, Max Cairney-Leeming, Seth Flaxman
+
+
 ## Environment
 Create the environment `numpyro10_torch`: 
  
@@ -17,3 +20,16 @@ conda install -c conda-forge dill
 conda install -c conda-forge mamba
 mamba install -c conda-forge geopandas
 ```
+
+
+A [runnable demo](https://colab.research.google.com/drive/1yY6voFH0UdL2uZwDqGJWqS3tHQpB8212?usp=sharing) of the one-dimesiontal GP example comparing PriorVAE, PriorCVAE and GP inference is available on Colab. Make sure to follow the following folder structure: 
+
+.
++-- Colab notebook
++-- trained_models
+|   +-- PriorCVAE weights
+|   +-- PriorVAE weights
++-- mcmc
+|   +-- MCMC fit
+
+
