@@ -1,6 +1,6 @@
 # PriorCVAE
 
-Demonstration code of the publication ["PriorCVAE: scalable MCMC parameter inference with Bayesian deep generative modelling"](https://arxiv.org/abs/2304.04307), Elizaveta Semenova, Max Cairney-Leeming, Seth Flaxman
+Demonstration code of the publication "PriorCVAE: scalable MCMC parameter inference with Bayesian deep generative modelling"
 
 
 ## Environment
