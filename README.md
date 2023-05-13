@@ -20,6 +20,7 @@ conda install -c conda-forge dill
 conda install -c conda-forge mamba
 mamba install -c conda-forge geopandas
 conda install -c anaconda seaborn
+mamba install -c conda-forge wandb
 ```
 
 ## Google Colab
