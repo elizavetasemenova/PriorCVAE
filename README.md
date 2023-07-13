@@ -1,6 +1,6 @@
 # PriorCVAE
 
-Demonstration code of the publication "PriorCVAE: scalable MCMC parameter inference with Bayesian deep generative modelling"
+Demonstration code of the publication ["PriorCVAE: scalable MCMC parameter inference with Bayesian deep generative modelling"](https://arxiv.org/abs/2304.04307)
 
 
 ## Environment
@@ -26,4 +26,9 @@ mamba install -c conda-forge wandb
 ## Google Colab
 A [runnable demo](https://colab.research.google.com/drive/1yY6voFH0UdL2uZwDqGJWqS3tHQpB8212?usp=sharing) of the one-dimesiontal GP example comparing PriorVAE, PriorCVAE and GP inference with MCMC is available on Colab. Make sure to keep `trained_models` and `mcmc` folders in the root directory; `trained_models` contains pretrained neural networks (VAEs), and `mcmc` contains MCMC fits of models which are hard to run.
 
+## Update
+
+Code in this repository uses PyTorch. It is recommended to use the JAX verion instead:
+
+- JAX version of the [PriorCVAE](https://arxiv.org/abs/2304.04307) method: [here](https://github.com/elizavetasemenova/priorcvae_jax)
 
